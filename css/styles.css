@@ -261,6 +261,28 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;;
+}
+
+.team-socials {
+    display: flex;
+    gap: 24px;
+}
+
+.ellipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-accent);
+    border-radius: 50%;
+    padding: 0;
+}
+
+.icons-socials {
+    display:flex;
+    fill: var(--color-footer);
 }
 
 /* Portfolio section */
